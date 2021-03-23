@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24F27D068E8C72DAAFA0520B /* Pods_StepMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23F73FF6B8C3CEC0F02AD19 /* Pods_StepMateTests.framework */; };
+		294599AA2609A2CC00E48314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599A92609A2CC00E48314 /* AppDelegate.swift */; };
+		294599AC2609A2CC00E48314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599AB2609A2CC00E48314 /* SceneDelegate.swift */; };
+		294599AE2609A2CC00E48314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599AD2609A2CC00E48314 /* ViewController.swift */; };
+		294599B12609A2CC00E48314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294599AF2609A2CC00E48314 /* Main.storyboard */; };
+		294599B32609A2CE00E48314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294599B22609A2CE00E48314 /* Assets.xcassets */; };
+		294599B62609A2CE00E48314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294599B42609A2CE00E48314 /* LaunchScreen.storyboard */; };
+		294599C12609A2CF00E48314 /* StepMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599C02609A2CF00E48314 /* StepMateTests.swift */; };
+		294599CC2609A2CF00E48314 /* StepMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599CB2609A2CF00E48314 /* StepMateUITests.swift */; };
+		29459A152609A82600E48314 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A142609A82600E48314 /* MainCoordinator.swift */; };
+		29459A1A2609A85B00E48314 /* SubCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A192609A85B00E48314 /* SubCoordinator.swift */; };
+		29459A1F2609A86F00E48314 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A1E2609A86F00E48314 /* Storyboarded.swift */; };
+		29459A262609AA8C00E48314 /* Storyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A252609AA8C00E48314 /* Storyboard+UIViewController.swift */; };
+		29459A2B2609AAF000E48314 /* UIApplication+StepMate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A2A2609AAF000E48314 /* UIApplication+StepMate.swift */; };
+		29459A302609AF3400E48314 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A2F2609AF3400E48314 /* SplashViewController.swift */; };
+		29459A352609B1AC00E48314 /* CreateWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A342609B1AC00E48314 /* CreateWorkoutViewController.swift */; };
+		29459A3A2609B45700E48314 /* running.json in Resources */ = {isa = PBXBuildFile; fileRef = 29459A392609B45700E48314 /* running.json */; };
+		29459A3F2609B62900E48314 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A3E2609B62900E48314 /* MainViewController.swift */; };
+		3E21ECFF8386C8AB4E42806B /* Pods_StepMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DE07F5BB948ECC7FF515FD /* Pods_StepMate.framework */; };
+		60CB0222C80C436CE8689AA6 /* Pods_StepMate_StepMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1DCF096B16C5BC3528BC63 /* Pods_StepMate_StepMateUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		294599BD2609A2CF00E48314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2945999E2609A2CB00E48314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294599A52609A2CB00E48314;
+			remoteInfo = StepMate;
+		};
+		294599C82609A2CF00E48314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2945999E2609A2CB00E48314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294599A52609A2CB00E48314;
+			remoteInfo = StepMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166E11618F6CA09BDD142055 /* Pods-StepMate-StepMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMate-StepMateUITests.debug.xcconfig"; path = "Target Support Files/Pods-StepMate-StepMateUITests/Pods-StepMate-StepMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		294599A62609A2CB00E48314 /* StepMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		294599A92609A2CC00E48314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		294599AB2609A2CC00E48314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		294599AD2609A2CC00E48314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		294599B02609A2CC00E48314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		294599B22609A2CE00E48314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		294599B52609A2CE00E48314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		294599B72609A2CE00E48314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294599BC2609A2CF00E48314 /* StepMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294599C02609A2CF00E48314 /* StepMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepMateTests.swift; sourceTree = "<group>"; };
+		294599C22609A2CF00E48314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294599C72609A2CF00E48314 /* StepMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294599CB2609A2CF00E48314 /* StepMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepMateUITests.swift; sourceTree = "<group>"; };
+		294599CD2609A2CF00E48314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29459A142609A82600E48314 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		29459A192609A85B00E48314 /* SubCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCoordinator.swift; sourceTree = "<group>"; };
+		29459A1E2609A86F00E48314 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		29459A252609AA8C00E48314 /* Storyboard+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+UIViewController.swift"; sourceTree = "<group>"; };
+		29459A2A2609AAF000E48314 /* UIApplication+StepMate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+StepMate.swift"; sourceTree = "<group>"; };
+		29459A2F2609AF3400E48314 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		29459A342609B1AC00E48314 /* CreateWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutViewController.swift; sourceTree = "<group>"; };
+		29459A392609B45700E48314 /* running.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = running.json; sourceTree = "<group>"; };
+		29459A3E2609B62900E48314 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		383E580630C771B07D5852CC /* Pods-StepMate-StepMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMate-StepMateUITests.release.xcconfig"; path = "Target Support Files/Pods-StepMate-StepMateUITests/Pods-StepMate-StepMateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56157A123188B457FEC41037 /* Pods-StepMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMate.debug.xcconfig"; path = "Target Support Files/Pods-StepMate/Pods-StepMate.debug.xcconfig"; sourceTree = "<group>"; };
+		62DE07F5BB948ECC7FF515FD /* Pods_StepMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1DCF096B16C5BC3528BC63 /* Pods_StepMate_StepMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepMate_StepMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BBAAA6D055FA371D1F0FD0 /* Pods-StepMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMateTests.release.xcconfig"; path = "Target Support Files/Pods-StepMateTests/Pods-StepMateTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDE1A13B2BDBCAAD9A2D2ABD /* Pods-StepMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMate.release.xcconfig"; path = "Target Support Files/Pods-StepMate/Pods-StepMate.release.xcconfig"; sourceTree = "<group>"; };
+		D3A63345018FA59D34DCCE0F /* Pods-StepMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMateTests.debug.xcconfig"; path = "Target Support Files/Pods-StepMateTests/Pods-StepMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E23F73FF6B8C3CEC0F02AD19 /* Pods_StepMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294599A32609A2CB00E48314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E21ECFF8386C8AB4E42806B /* Pods_StepMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294599B92609A2CF00E48314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F27D068E8C72DAAFA0520B /* Pods_StepMateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294599C42609A2CF00E48314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CB0222C80C436CE8689AA6 /* Pods_StepMate_StepMateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B3DA114A5BDD97992ADD5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62DE07F5BB948ECC7FF515FD /* Pods_StepMate.framework */,
+				7F1DCF096B16C5BC3528BC63 /* Pods_StepMate_StepMateUITests.framework */,
+				E23F73FF6B8C3CEC0F02AD19 /* Pods_StepMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2945999D2609A2CB00E48314 = {
+			isa = PBXGroup;
+			children = (
+				294599A82609A2CB00E48314 /* StepMate */,
+				294599BF2609A2CF00E48314 /* StepMateTests */,
+				294599CA2609A2CF00E48314 /* StepMateUITests */,
+				294599A72609A2CB00E48314 /* Products */,
+				A61846AA3EB828FE8773B28A /* Pods */,
+				14B3DA114A5BDD97992ADD5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		294599A72609A2CB00E48314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294599A62609A2CB00E48314 /* StepMate.app */,
+				294599BC2609A2CF00E48314 /* StepMateTests.xctest */,
+				294599C72609A2CF00E48314 /* StepMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294599A82609A2CB00E48314 /* StepMate */ = {
+			isa = PBXGroup;
+			children = (
+				29459A232609AA0C00E48314 /* Managers */,
+				29459A132609A7B700E48314 /* Utilities */,
+				29459A122609A77900E48314 /* Coordinator */,
+				29459A0D2609A6B400E48314 /* ViewControllers */,
+				294599EE2609A4F500E48314 /* Assets */,
+				294599A92609A2CC00E48314 /* AppDelegate.swift */,
+				294599AB2609A2CC00E48314 /* SceneDelegate.swift */,
+				294599AD2609A2CC00E48314 /* ViewController.swift */,
+				294599B72609A2CE00E48314 /* Info.plist */,
+			);
+			path = StepMate;
+			sourceTree = "<group>";
+		};
+		294599BF2609A2CF00E48314 /* StepMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				294599C02609A2CF00E48314 /* StepMateTests.swift */,
+				294599C22609A2CF00E48314 /* Info.plist */,
+			);
+			path = StepMateTests;
+			sourceTree = "<group>";
+		};
+		294599CA2609A2CF00E48314 /* StepMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				294599CB2609A2CF00E48314 /* StepMateUITests.swift */,
+				294599CD2609A2CF00E48314 /* Info.plist */,
+			);
+			path = StepMateUITests;
+			sourceTree = "<group>";
+		};
+		294599EE2609A4F500E48314 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				29459A392609B45700E48314 /* running.json */,
+				294599B42609A2CE00E48314 /* LaunchScreen.storyboard */,
+				294599AF2609A2CC00E48314 /* Main.storyboard */,
+				294599B22609A2CE00E48314 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		29459A0D2609A6B400E48314 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29459A2F2609AF3400E48314 /* SplashViewController.swift */,
+				29459A342609B1AC00E48314 /* CreateWorkoutViewController.swift */,
+				29459A3E2609B62900E48314 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29459A122609A77900E48314 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				29459A142609A82600E48314 /* MainCoordinator.swift */,
+				29459A192609A85B00E48314 /* SubCoordinator.swift */,
+				29459A1E2609A86F00E48314 /* Storyboarded.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		29459A132609A7B700E48314 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				29459A252609AA8C00E48314 /* Storyboard+UIViewController.swift */,
+				29459A2A2609AAF000E48314 /* UIApplication+StepMate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		29459A232609AA0C00E48314 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				29459A242609AA1400E48314 /* WorkoutDataManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		29459A242609AA1400E48314 /* WorkoutDataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WorkoutDataManager;
+			sourceTree = "<group>";
+		};
+		A61846AA3EB828FE8773B28A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56157A123188B457FEC41037 /* Pods-StepMate.debug.xcconfig */,
+				CDE1A13B2BDBCAAD9A2D2ABD /* Pods-StepMate.release.xcconfig */,
+				166E11618F6CA09BDD142055 /* Pods-StepMate-StepMateUITests.debug.xcconfig */,
+				383E580630C771B07D5852CC /* Pods-StepMate-StepMateUITests.release.xcconfig */,
+				D3A63345018FA59D34DCCE0F /* Pods-StepMateTests.debug.xcconfig */,
+				93BBAAA6D055FA371D1F0FD0 /* Pods-StepMateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		294599A52609A2CB00E48314 /* StepMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294599D02609A2CF00E48314 /* Build configuration list for PBXNativeTarget "StepMate" */;
+			buildPhases = (
+				B91A82522315D895BC654CCF /* [CP] Check Pods Manifest.lock */,
+				294599A22609A2CB00E48314 /* Sources */,
+				294599A32609A2CB00E48314 /* Frameworks */,
+				294599A42609A2CB00E48314 /* Resources */,
+				0B2518459E79BD0C7892C85B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepMate;
+			productName = StepMate;
+			productReference = 294599A62609A2CB00E48314 /* StepMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		294599BB2609A2CF00E48314 /* StepMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294599D32609A2CF00E48314 /* Build configuration list for PBXNativeTarget "StepMateTests" */;
+			buildPhases = (
+				2760DFFCA67ABE92A8C82117 /* [CP] Check Pods Manifest.lock */,
+				294599B82609A2CF00E48314 /* Sources */,
+				294599B92609A2CF00E48314 /* Frameworks */,
+				294599BA2609A2CF00E48314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294599BE2609A2CF00E48314 /* PBXTargetDependency */,
+			);
+			name = StepMateTests;
+			productName = StepMateTests;
+			productReference = 294599BC2609A2CF00E48314 /* StepMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		294599C62609A2CF00E48314 /* StepMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294599D62609A2CF00E48314 /* Build configuration list for PBXNativeTarget "StepMateUITests" */;
+			buildPhases = (
+				12E92BC20C305267994F7B4C /* [CP] Check Pods Manifest.lock */,
+				294599C32609A2CF00E48314 /* Sources */,
+				294599C42609A2CF00E48314 /* Frameworks */,
+				294599C52609A2CF00E48314 /* Resources */,
+				933817530B082D0056B8C708 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294599C92609A2CF00E48314 /* PBXTargetDependency */,
+			);
+			name = StepMateUITests;
+			productName = StepMateUITests;
+			productReference = 294599C72609A2CF00E48314 /* StepMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2945999E2609A2CB00E48314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					294599A52609A2CB00E48314 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					294599BB2609A2CF00E48314 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 294599A52609A2CB00E48314;
+					};
+					294599C62609A2CF00E48314 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 294599A52609A2CB00E48314;
+					};
+				};
+			};
+			buildConfigurationList = 294599A12609A2CB00E48314 /* Build configuration list for PBXProject "StepMate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2945999D2609A2CB00E48314;
+			productRefGroup = 294599A72609A2CB00E48314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				294599A52609A2CB00E48314 /* StepMate */,
+				294599BB2609A2CF00E48314 /* StepMateTests */,
+				294599C62609A2CF00E48314 /* StepMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		294599A42609A2CB00E48314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294599B62609A2CE00E48314 /* LaunchScreen.storyboard in Resources */,
+				29459A3A2609B45700E48314 /* running.json in Resources */,
+				294599B32609A2CE00E48314 /* Assets.xcassets in Resources */,
+				294599B12609A2CC00E48314 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294599BA2609A2CF00E48314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294599C52609A2CF00E48314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B2518459E79BD0C7892C85B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepMate/Pods-StepMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepMate/Pods-StepMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepMate/Pods-StepMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12E92BC20C305267994F7B4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepMate-StepMateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2760DFFCA67ABE92A8C82117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		933817530B082D0056B8C708 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepMate-StepMateUITests/Pods-StepMate-StepMateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepMate-StepMateUITests/Pods-StepMate-StepMateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepMate-StepMateUITests/Pods-StepMate-StepMateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91A82522315D895BC654CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		294599A22609A2CB00E48314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29459A262609AA8C00E48314 /* Storyboard+UIViewController.swift in Sources */,
+				29459A3F2609B62900E48314 /* MainViewController.swift in Sources */,
+				294599AE2609A2CC00E48314 /* ViewController.swift in Sources */,
+				29459A352609B1AC00E48314 /* CreateWorkoutViewController.swift in Sources */,
+				29459A1A2609A85B00E48314 /* SubCoordinator.swift in Sources */,
+				29459A302609AF3400E48314 /* SplashViewController.swift in Sources */,
+				29459A152609A82600E48314 /* MainCoordinator.swift in Sources */,
+				294599AA2609A2CC00E48314 /* AppDelegate.swift in Sources */,
+				294599AC2609A2CC00E48314 /* SceneDelegate.swift in Sources */,
+				29459A1F2609A86F00E48314 /* Storyboarded.swift in Sources */,
+				29459A2B2609AAF000E48314 /* UIApplication+StepMate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294599B82609A2CF00E48314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294599C12609A2CF00E48314 /* StepMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294599C32609A2CF00E48314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294599CC2609A2CF00E48314 /* StepMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		294599BE2609A2CF00E48314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294599A52609A2CB00E48314 /* StepMate */;
+			targetProxy = 294599BD2609A2CF00E48314 /* PBXContainerItemProxy */;
+		};
+		294599C92609A2CF00E48314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294599A52609A2CB00E48314 /* StepMate */;
+			targetProxy = 294599C82609A2CF00E48314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		294599AF2609A2CC00E48314 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294599B02609A2CC00E48314 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		294599B42609A2CE00E48314 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294599B52609A2CE00E48314 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		294599CE2609A2CF00E48314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		294599CF2609A2CF00E48314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		294599D12609A2CF00E48314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56157A123188B457FEC41037 /* Pods-StepMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = StepMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.StepMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		294599D22609A2CF00E48314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE1A13B2BDBCAAD9A2D2ABD /* Pods-StepMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = StepMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.StepMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		294599D42609A2CF00E48314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A63345018FA59D34DCCE0F /* Pods-StepMateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = StepMateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.StepMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepMate.app/StepMate";
+			};
+			name = Debug;
+		};
+		294599D52609A2CF00E48314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BBAAA6D055FA371D1F0FD0 /* Pods-StepMateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = StepMateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.StepMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepMate.app/StepMate";
+			};
+			name = Release;
+		};
+		294599D72609A2CF00E48314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166E11618F6CA09BDD142055 /* Pods-StepMate-StepMateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = StepMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.StepMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepMate;
+			};
+			name = Debug;
+		};
+		294599D82609A2CF00E48314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383E580630C771B07D5852CC /* Pods-StepMate-StepMateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = StepMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.StepMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		294599A12609A2CB00E48314 /* Build configuration list for PBXProject "StepMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294599CE2609A2CF00E48314 /* Debug */,
+				294599CF2609A2CF00E48314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294599D02609A2CF00E48314 /* Build configuration list for PBXNativeTarget "StepMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294599D12609A2CF00E48314 /* Debug */,
+				294599D22609A2CF00E48314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294599D32609A2CF00E48314 /* Build configuration list for PBXNativeTarget "StepMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294599D42609A2CF00E48314 /* Debug */,
+				294599D52609A2CF00E48314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294599D62609A2CF00E48314 /* Build configuration list for PBXNativeTarget "StepMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294599D72609A2CF00E48314 /* Debug */,
+				294599D82609A2CF00E48314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2945999E2609A2CB00E48314 /* Project object */;
+}
