@@ -8,16 +8,14 @@
 import Foundation
 import UIKit
 
-/// `Coordinator Pattern Protocol : VC Initiator through Storyboard`
-/// `- Requires All VC to confirm to StoryBoarded .`
+///`VC initiator`
 protocol StoryBoarded {
     static func instantiate() -> Self
 }
 extension StoryBoarded where Self: UIViewController {
-    static func instantiate() ->  Self {
-        let id = String (describing: self)
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        
-        return storyboard.instantiateViewController(identifier: id) as! Self
+    static func instantiate() -> Self {
+        let id = String(describing: self)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        return storyboard.instantiateViewController(withIdentifier: id) as! Self
     }
 }

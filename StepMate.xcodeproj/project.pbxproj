@@ -10,21 +10,38 @@
 		24F27D068E8C72DAAFA0520B /* Pods_StepMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23F73FF6B8C3CEC0F02AD19 /* Pods_StepMateTests.framework */; };
 		294599AA2609A2CC00E48314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599A92609A2CC00E48314 /* AppDelegate.swift */; };
 		294599AC2609A2CC00E48314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599AB2609A2CC00E48314 /* SceneDelegate.swift */; };
-		294599AE2609A2CC00E48314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599AD2609A2CC00E48314 /* ViewController.swift */; };
 		294599B12609A2CC00E48314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294599AF2609A2CC00E48314 /* Main.storyboard */; };
 		294599B32609A2CE00E48314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294599B22609A2CE00E48314 /* Assets.xcassets */; };
 		294599B62609A2CE00E48314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294599B42609A2CE00E48314 /* LaunchScreen.storyboard */; };
 		294599C12609A2CF00E48314 /* StepMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599C02609A2CF00E48314 /* StepMateTests.swift */; };
 		294599CC2609A2CF00E48314 /* StepMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294599CB2609A2CF00E48314 /* StepMateUITests.swift */; };
-		29459A152609A82600E48314 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A142609A82600E48314 /* MainCoordinator.swift */; };
-		29459A1A2609A85B00E48314 /* SubCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A192609A85B00E48314 /* SubCoordinator.swift */; };
 		29459A1F2609A86F00E48314 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A1E2609A86F00E48314 /* Storyboarded.swift */; };
-		29459A262609AA8C00E48314 /* Storyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A252609AA8C00E48314 /* Storyboard+UIViewController.swift */; };
 		29459A2B2609AAF000E48314 /* UIApplication+StepMate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A2A2609AAF000E48314 /* UIApplication+StepMate.swift */; };
 		29459A302609AF3400E48314 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A2F2609AF3400E48314 /* SplashViewController.swift */; };
-		29459A352609B1AC00E48314 /* CreateWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A342609B1AC00E48314 /* CreateWorkoutViewController.swift */; };
 		29459A3A2609B45700E48314 /* running.json in Resources */ = {isa = PBXBuildFile; fileRef = 29459A392609B45700E48314 /* running.json */; };
 		29459A3F2609B62900E48314 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29459A3E2609B62900E48314 /* MainViewController.swift */; };
+		2980431D2634E5CD008B7560 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980431C2634E5CD008B7560 /* Coordinator.swift */; };
+		298043312634E636008B7560 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043302634E636008B7560 /* AppCoordinator.swift */; };
+		298043392634E894008B7560 /* InitializeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043382634E894008B7560 /* InitializeCoordinator.swift */; };
+		2980433E2634EADE008B7560 /* RootTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980433D2634EADE008B7560 /* RootTabBarCoordinator.swift */; };
+		298043482634EF25008B7560 /* WorkoutFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043472634EF25008B7560 /* WorkoutFlowCoordinator.swift */; };
+		298043562635F03A008B7560 /* UserProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043552635F03A008B7560 /* UserProfileCoordinator.swift */; };
+		2980435B2635F4BD008B7560 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980435A2635F4BD008B7560 /* UserProfileViewController.swift */; };
+		298043602635F6BF008B7560 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980435F2635F6BF008B7560 /* StepsViewController.swift */; };
+		298043652635F6D6008B7560 /* StepsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043642635F6D6008B7560 /* StepsCoordinator.swift */; };
+		298043A526362205008B7560 /* LocationServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043A426362205008B7560 /* LocationServicesManager.swift */; };
+		298043AD26362BF7008B7560 /* UIAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043AC26362BF7008B7560 /* UIAlertManager.swift */; };
+		298043D226374BB1008B7560 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043D126374BB1008B7560 /* WorkoutModel.swift */; };
+		298043EB26378170008B7560 /* CurrentWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043EA26378170008B7560 /* CurrentWorkoutViewModel.swift */; };
+		298043FC2637822F008B7560 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298043FB2637822E008B7560 /* Box.swift */; };
+		2980441326379472008B7560 /* StartWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980441226379472008B7560 /* StartWorkoutViewModel.swift */; };
+		2980444F2638D3C1008B7560 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980444E2638D3C1008B7560 /* AlertModel.swift */; };
+		298044542638D4B8008B7560 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298044532638D4B8008B7560 /* AlertPresenter.swift */; };
+		298044612638D56C008B7560 /* AlertPresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298044602638D56C008B7560 /* AlertPresentableView.swift */; };
+		298044662638D6F9008B7560 /* AlertPresentableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298044652638D6F9008B7560 /* AlertPresentableViewModel.swift */; };
+		298044802638E28E008B7560 /* AlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980447F2638E28E008B7560 /* AlertViewModel.swift */; };
+		2985C66B26158AB600FD6FEB /* StartWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2985C66A26158AB600FD6FEB /* StartWorkOutViewController.swift */; };
+		2985C67326158B3200FD6FEB /* CurrentWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2985C67226158B3200FD6FEB /* CurrentWorkOutViewController.swift */; };
 		3E21ECFF8386C8AB4E42806B /* Pods_StepMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DE07F5BB948ECC7FF515FD /* Pods_StepMate.framework */; };
 		60CB0222C80C436CE8689AA6 /* Pods_StepMate_StepMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1DCF096B16C5BC3528BC63 /* Pods_StepMate_StepMateUITests.framework */; };
 /* End PBXBuildFile section */
@@ -51,7 +68,6 @@
 		294599A62609A2CB00E48314 /* StepMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		294599A92609A2CC00E48314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		294599AB2609A2CC00E48314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		294599AD2609A2CC00E48314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		294599B02609A2CC00E48314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		294599B22609A2CE00E48314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		294599B52609A2CE00E48314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,15 +78,33 @@
 		294599C72609A2CF00E48314 /* StepMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		294599CB2609A2CF00E48314 /* StepMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepMateUITests.swift; sourceTree = "<group>"; };
 		294599CD2609A2CF00E48314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29459A142609A82600E48314 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		29459A192609A85B00E48314 /* SubCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCoordinator.swift; sourceTree = "<group>"; };
 		29459A1E2609A86F00E48314 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		29459A252609AA8C00E48314 /* Storyboard+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+UIViewController.swift"; sourceTree = "<group>"; };
 		29459A2A2609AAF000E48314 /* UIApplication+StepMate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+StepMate.swift"; sourceTree = "<group>"; };
 		29459A2F2609AF3400E48314 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		29459A342609B1AC00E48314 /* CreateWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutViewController.swift; sourceTree = "<group>"; };
 		29459A392609B45700E48314 /* running.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = running.json; sourceTree = "<group>"; };
 		29459A3E2609B62900E48314 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2980431C2634E5CD008B7560 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		298043302634E636008B7560 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		298043382634E894008B7560 /* InitializeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializeCoordinator.swift; sourceTree = "<group>"; };
+		2980433D2634EADE008B7560 /* RootTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarCoordinator.swift; sourceTree = "<group>"; };
+		298043472634EF25008B7560 /* WorkoutFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFlowCoordinator.swift; sourceTree = "<group>"; };
+		298043552635F03A008B7560 /* UserProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCoordinator.swift; sourceTree = "<group>"; };
+		2980435A2635F4BD008B7560 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		2980435F2635F6BF008B7560 /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		298043642635F6D6008B7560 /* StepsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCoordinator.swift; sourceTree = "<group>"; };
+		298043A426362205008B7560 /* LocationServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServicesManager.swift; sourceTree = "<group>"; };
+		298043AC26362BF7008B7560 /* UIAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertManager.swift; sourceTree = "<group>"; };
+		298043D126374BB1008B7560 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		298043EA26378170008B7560 /* CurrentWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWorkoutViewModel.swift; sourceTree = "<group>"; };
+		298043FB2637822E008B7560 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		2980441226379472008B7560 /* StartWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkoutViewModel.swift; sourceTree = "<group>"; };
+		2980444E2638D3C1008B7560 /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		298044532638D4B8008B7560 /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		298044602638D56C008B7560 /* AlertPresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentableView.swift; sourceTree = "<group>"; };
+		298044652638D6F9008B7560 /* AlertPresentableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentableViewModel.swift; sourceTree = "<group>"; };
+		2980447F2638E28E008B7560 /* AlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModel.swift; sourceTree = "<group>"; };
+		2985C66A26158AB600FD6FEB /* StartWorkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkOutViewController.swift; sourceTree = "<group>"; };
+		2985C67226158B3200FD6FEB /* CurrentWorkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWorkOutViewController.swift; sourceTree = "<group>"; };
 		383E580630C771B07D5852CC /* Pods-StepMate-StepMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMate-StepMateUITests.release.xcconfig"; path = "Target Support Files/Pods-StepMate-StepMateUITests/Pods-StepMate-StepMateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		56157A123188B457FEC41037 /* Pods-StepMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepMate.debug.xcconfig"; path = "Target Support Files/Pods-StepMate/Pods-StepMate.debug.xcconfig"; sourceTree = "<group>"; };
 		62DE07F5BB948ECC7FF515FD /* Pods_StepMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,14 +178,16 @@
 		294599A82609A2CB00E48314 /* StepMate */ = {
 			isa = PBXGroup;
 			children = (
+				2980444D2638D39C008B7560 /* AlertsManager */,
+				29459A122609A77900E48314 /* Coordinator */,
 				29459A232609AA0C00E48314 /* Managers */,
 				29459A132609A7B700E48314 /* Utilities */,
-				29459A122609A77900E48314 /* Coordinator */,
+				298043CF26374B82008B7560 /* Model */,
 				29459A0D2609A6B400E48314 /* ViewControllers */,
+				298043D026374B9A008B7560 /* ViewModel */,
 				294599EE2609A4F500E48314 /* Assets */,
 				294599A92609A2CC00E48314 /* AppDelegate.swift */,
 				294599AB2609A2CC00E48314 /* SceneDelegate.swift */,
-				294599AD2609A2CC00E48314 /* ViewController.swift */,
 				294599B72609A2CE00E48314 /* Info.plist */,
 			);
 			path = StepMate;
@@ -190,8 +226,11 @@
 			isa = PBXGroup;
 			children = (
 				29459A2F2609AF3400E48314 /* SplashViewController.swift */,
-				29459A342609B1AC00E48314 /* CreateWorkoutViewController.swift */,
 				29459A3E2609B62900E48314 /* MainViewController.swift */,
+				2985C66A26158AB600FD6FEB /* StartWorkOutViewController.swift */,
+				2985C67226158B3200FD6FEB /* CurrentWorkOutViewController.swift */,
+				2980435A2635F4BD008B7560 /* UserProfileViewController.swift */,
+				2980435F2635F6BF008B7560 /* StepsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,9 +238,14 @@
 		29459A122609A77900E48314 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				29459A142609A82600E48314 /* MainCoordinator.swift */,
-				29459A192609A85B00E48314 /* SubCoordinator.swift */,
+				298043302634E636008B7560 /* AppCoordinator.swift */,
+				298043382634E894008B7560 /* InitializeCoordinator.swift */,
+				2980431C2634E5CD008B7560 /* Coordinator.swift */,
+				2980433D2634EADE008B7560 /* RootTabBarCoordinator.swift */,
+				298043472634EF25008B7560 /* WorkoutFlowCoordinator.swift */,
 				29459A1E2609A86F00E48314 /* Storyboarded.swift */,
+				298043552635F03A008B7560 /* UserProfileCoordinator.swift */,
+				298043642635F6D6008B7560 /* StepsCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -209,8 +253,9 @@
 		29459A132609A7B700E48314 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				29459A252609AA8C00E48314 /* Storyboard+UIViewController.swift */,
 				29459A2A2609AAF000E48314 /* UIApplication+StepMate.swift */,
+				298043AC26362BF7008B7560 /* UIAlertManager.swift */,
+				298043FB2637822E008B7560 /* Box.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -218,6 +263,7 @@
 		29459A232609AA0C00E48314 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				2980438B26361D37008B7560 /* LocationServicesManager */,
 				29459A242609AA1400E48314 /* WorkoutDataManager */,
 			);
 			path = Managers;
@@ -228,6 +274,43 @@
 			children = (
 			);
 			path = WorkoutDataManager;
+			sourceTree = "<group>";
+		};
+		2980438B26361D37008B7560 /* LocationServicesManager */ = {
+			isa = PBXGroup;
+			children = (
+				298043A426362205008B7560 /* LocationServicesManager.swift */,
+			);
+			path = LocationServicesManager;
+			sourceTree = "<group>";
+		};
+		298043CF26374B82008B7560 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				298043D126374BB1008B7560 /* WorkoutModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		298043D026374B9A008B7560 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				298043EA26378170008B7560 /* CurrentWorkoutViewModel.swift */,
+				2980441226379472008B7560 /* StartWorkoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2980444D2638D39C008B7560 /* AlertsManager */ = {
+			isa = PBXGroup;
+			children = (
+				2980444E2638D3C1008B7560 /* AlertModel.swift */,
+				298044532638D4B8008B7560 /* AlertPresenter.swift */,
+				298044602638D56C008B7560 /* AlertPresentableView.swift */,
+				298044652638D6F9008B7560 /* AlertPresentableViewModel.swift */,
+				2980447F2638E28E008B7560 /* AlertViewModel.swift */,
+			);
+			path = AlertsManager;
 			sourceTree = "<group>";
 		};
 		A61846AA3EB828FE8773B28A /* Pods */ = {
@@ -482,16 +565,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29459A262609AA8C00E48314 /* Storyboard+UIViewController.swift in Sources */,
 				29459A3F2609B62900E48314 /* MainViewController.swift in Sources */,
-				294599AE2609A2CC00E48314 /* ViewController.swift in Sources */,
-				29459A352609B1AC00E48314 /* CreateWorkoutViewController.swift in Sources */,
-				29459A1A2609A85B00E48314 /* SubCoordinator.swift in Sources */,
+				298043482634EF25008B7560 /* WorkoutFlowCoordinator.swift in Sources */,
+				2980441326379472008B7560 /* StartWorkoutViewModel.swift in Sources */,
+				298044802638E28E008B7560 /* AlertViewModel.swift in Sources */,
+				298044662638D6F9008B7560 /* AlertPresentableViewModel.swift in Sources */,
+				298043312634E636008B7560 /* AppCoordinator.swift in Sources */,
+				298044612638D56C008B7560 /* AlertPresentableView.swift in Sources */,
+				2980444F2638D3C1008B7560 /* AlertModel.swift in Sources */,
 				29459A302609AF3400E48314 /* SplashViewController.swift in Sources */,
-				29459A152609A82600E48314 /* MainCoordinator.swift in Sources */,
+				2985C67326158B3200FD6FEB /* CurrentWorkOutViewController.swift in Sources */,
 				294599AA2609A2CC00E48314 /* AppDelegate.swift in Sources */,
+				2980433E2634EADE008B7560 /* RootTabBarCoordinator.swift in Sources */,
 				294599AC2609A2CC00E48314 /* SceneDelegate.swift in Sources */,
+				298043602635F6BF008B7560 /* StepsViewController.swift in Sources */,
+				298043D226374BB1008B7560 /* WorkoutModel.swift in Sources */,
+				298043652635F6D6008B7560 /* StepsCoordinator.swift in Sources */,
+				298043A526362205008B7560 /* LocationServicesManager.swift in Sources */,
+				298043AD26362BF7008B7560 /* UIAlertManager.swift in Sources */,
+				298044542638D4B8008B7560 /* AlertPresenter.swift in Sources */,
+				2980435B2635F4BD008B7560 /* UserProfileViewController.swift in Sources */,
+				2980431D2634E5CD008B7560 /* Coordinator.swift in Sources */,
+				298043392634E894008B7560 /* InitializeCoordinator.swift in Sources */,
 				29459A1F2609A86F00E48314 /* Storyboarded.swift in Sources */,
+				298043562635F03A008B7560 /* UserProfileCoordinator.swift in Sources */,
+				298043EB26378170008B7560 /* CurrentWorkoutViewModel.swift in Sources */,
+				298043FC2637822F008B7560 /* Box.swift in Sources */,
+				2985C66B26158AB600FD6FEB /* StartWorkOutViewController.swift in Sources */,
 				29459A2B2609AAF000E48314 /* UIApplication+StepMate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

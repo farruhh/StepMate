@@ -14,6 +14,9 @@ pod 'PromiseKit', '~> 6.8'
 # Rx
 pod 'RxSwift'
 
+#Bond
+pod 'Bond'
+
 # KWDrawerController
 pod 'KWDrawerController', '~> 4.2'
 pod 'KWDrawerController/RxSwift'

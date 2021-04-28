@@ -9,11 +9,11 @@ import UIKit
 import Lottie
 
 class SplashViewController: UIViewController, StoryBoarded {
-    weak var coordinator: MainCoordinator?
+     var coordinator: InitializeFlow?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     //MARK: - viewDidAppear
     override func viewDidAppear(_ animated: Bool) {
@@ -22,11 +22,11 @@ class SplashViewController: UIViewController, StoryBoarded {
         animationView.animation = animation
         animationView.frame = CGRect(origin: .zero, size: CGSize(width: self.view.frame.size.width, height: 200))
         animationView.center = self.view.center
-        animationView.loopMode = .loop
+        animationView.loopMode = .playOnce
         animationView.contentMode = .scaleAspectFit
         animationView.play { (finished) in
             DispatchQueue.main.asyncAfter(deadline: .now() +  2.0, execute: {
-                UIApplication.change(UIStoryboard.mainViewController())
+                self.coordinator?.loadRootTabBar()
             })
         }
         view.addSubview(animationView)
